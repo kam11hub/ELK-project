@@ -132,10 +132,10 @@ Open your git.
 
 Run the playbook, and navigate to its URL to check that the installation worked as expected.
 
-$ cd /etc/ansible
-$ ansible-playbook install_elk.yml elk
-$ ansible-playbook filebeat-playbook.yml webservers
-$ ansible-playbook metricbeat-playbook.yml webservers
+- $ cd /etc/ansible
+- $ ansible-playbook install_elk.yml elk
+- $ ansible-playbook filebeat-playbook.yml webservers
+- $ ansible-playbook metricbeat-playbook.yml webservers
 
 Give ELK a few minutes to boot up to verify success.
 
