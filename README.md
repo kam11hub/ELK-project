@@ -115,8 +115,8 @@ $ cp project ELK-project/* ./files
 
 - Create and update the hosts file to include the target VMs...
 
-$ cd /etc/ansible
-$ nano hosts 
+- $ cd /etc/ansible
+- $ nano hosts 
 
 [webservers]
 
