@@ -20,54 +20,70 @@ In the last 7 days, what country produced the majority of the traffic on the web
 
 
 Of the traffic that's coming from that country, what time of day had the highest amount of activity?
-1 pm
+- 1 pm
 
 
 List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
-gz - these are compressed archives that are created by the zip (gzip) compression
-css - this the summary of a configuration file for the products that are installed locally on a system
-zip - compressed files that take up less storage space which may have one or more files in a directory
-deb - Debian Software Package file is a standard Unix archive which is used for installing packages. 
-rpm - a Red Hat Package manager file that is used to store installation packages on Linux operating systems. 
+- gz - these are compressed archives that are created by the zip (gzip) compression
+- css - this the summary of a configuration file for the products that are installed locally on a system
+- zip - compressed files that take up less storage space which may have one or more files in a directory
+- deb - Debian Software Package file is a standard Unix archive which is used for installing packages. 
+- rpm - a Red Hat Package manager file that is used to store installation packages on Linux operating systems. 
+
 
 Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
 
 
 Locate the time frame in the last 7 days with the most amount of bytes (activity).
 In your own words, is there anything that seems potentially strange about this activity?
-16,750 is the highest amount of bytes found in the data chart. This was on 2021-12-16 15:55. I found it suspicious that it only showed that there was only 1 unique visitor indicated. According to how the numbers correlate, the higher amount of bytes and the more unique visitors are found. 
-Filter the data by this event.
+- 16,750 is the highest amount of bytes found in the data chart. This was on 2021-12-16 15:55. I found it suspicious that it only showed that there was only 1 unique visitor indicated. According to how the numbers correlate, the higher amount of bytes and the more unique visitors are found. 
+
 
 
 What is the timestamp for this event?
-The timestamp for this event is per 4 hours 
+- The timestamp for this event is per 4 hours 
+
 What kind of file was downloaded?
-A gz file was downloaded
+- A gz file was downloaded
+
 From what country did this activity originate?
-China
+- China
+
 What HTTP response codes were encountered by this visitor?
-This showed data available so there were no HTTP response codes that these visitors encountered. 
+- This showed no data available so there were no HTTP response codes that these visitors encountered. 
+
+
+
 Switch to the Kibana Discover page to see more details about this activity.
 
 
 What is the source IP address of this activity?
-Source Ip addresses: 1.145.31.121 
+- Source Ip addresses: 1.145.31.121 
+
 What are the geo coordinates of this activity?
-"lat": 28.28980556, "lon": -81.43708333
+- "lat": 28.28980556, "lon": -81.43708333
+
 What OS was the source machine running?
-win 8 
+- win 8 
+
 What is the full URL that was accessed?
-https://artifacts.elastic.co/downloads/kibana/kibana-6.3.2-linux-x86_64.tar.gz 
+- https://artifacts.elastic.co/downloads/kibana/kibana-6.3.2-linux-x86_64.tar.gz 
+
 From what website did the visitor's traffic originate?
-http://www.elastic-elastic-elastic.com/success/aleksandr-serebrov 
+- http://www.elastic-elastic-elastic.com/success/aleksandr-serebrov 
+
+
 Finish your investigation with a short overview of your insights.
 
 
 What do you think the user was doing? 
-I think this user was trying download from packages to capture sample data logs from kibana in gz files from elastic
+- I think this user was trying download from packages to capture sample data logs from kibana in gz files from elastic
+
 Was the file they downloaded malicious? If not, what is the file used for?
-It wasn’t an alert of any malicious activity, This file is used to store logs from data detected by elastic within kibana. This could potentially be an administrator going through its system updates 
+- It wasn’t an alert of any malicious activity, This file is used to store logs from data detected by elastic within kibana. This could potentially be an administrator going through its system updates 
+
 Is there anything that seems suspicious about this activity?
-I find it suspicious that this information is being requested. I wonder what the user’s intention is with the need of this sensitive data.  
+- I find it suspicious that this information is being requested. I wonder what the user’s intention is with the need of this sensitive data.  
+
 Is any of the traffic you inspected potentially outside of compliance guidelines?
-I would suspect that the data I inspected could potentially be outside of compliance guidelines because depending on a company’s policy you could leak confidential information by looking into these log files.  
+- I would suspect that the data I inspected could potentially be outside of compliance guidelines because depending on a company’s policy you could leak confidential information by looking into these log files.  
