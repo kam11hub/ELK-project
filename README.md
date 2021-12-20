@@ -130,7 +130,7 @@ Open your git.
 
  
 
-- Run the playbook, and navigate to its URL to check that the installation worked as expected.
+Run the playbook, and navigate to its URL to check that the installation worked as expected.
 
 $ cd /etc/ansible
 $ ansible-playbook install_elk.yml elk
