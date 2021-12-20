@@ -103,13 +103,13 @@ SSH into the control node and follow the steps below:
 
 Open your git. 
 
-$ cd /etc/ansible
-$ mkdir files
-# Clone Repository + IaC Files
-$ git clone https://github.com/yourusername/ELK-project.git
-# move playbooks and hosts file into /etc/ansible 
-$ cp ELK-project/playbooks/*
-$ cp project ELK-project/* ./files
+- $ cd /etc/ansible
+- $ mkdir files
+Clone Repository + IaC Files
+- $ git clone https://github.com/yourusername/ELK-project.git
+move playbooks and hosts file into /etc/ansible 
+- $ cp ELK-project/playbooks/*
+- $ cp project ELK-project/* ./files
 
 
 
