@@ -6,7 +6,7 @@ This repo provides an in-depth analysis and description of how I deployed an ELK
 
 The files in this repository were used to configure the network depicted below.
 
-Cybersecurity/Azure Cloud Diagram.drawio.png at main · kam11hub/Cybersecurity (github.com)
+https://github.com/kam11hub/Cybersecurity/blob/main/Diagrams/Azure%20Cloud%20Diagram.drawio.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -80,7 +80,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-ELK-project/docker_ps_output.png at main · kam11hub/ELK-project (github.com)
+https://github.com/kam11hub/ELK-project/blob/main/Images/docker_ps_output.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
