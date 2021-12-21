@@ -1,15 +1,23 @@
-Completed tasks in Kibana
 
-Generate a high amount of failed SSH login attempts and verify that Kibana is picking up this activity.
-
-
-Generate a high amount of CPU usage on the pen-testing machines and verify that Kibana picks up this data.
+Note: The Images folder contains all of the visuals captured throughout this Kibana exploration activity.
 
 
-Generate a high amount of web requests to your pen-testing servers and make sure that Kibana is picking them up.
+#####################################################################################################################
 
 
-######################################################################################
+Completed tasks in Kibana.
+
+
+Generated a high amount of failed SSH login attempts and verified that Kibana is picking up this activity.
+
+
+Generated a high amount of CPU usage on the pen-testing machines and verified that Kibana picks up this data.
+
+
+Generated a high amount of web requests to your pen-testing servers and made sure that Kibana is picking them up.
+
+
+######################################################################################################################
 
 
 Add the sample web log data to Kibana
@@ -101,3 +109,4 @@ Is there anything that seems suspicious about this activity?
 
 Is any of the traffic you inspected potentially outside of compliance guidelines?
 - I would suspect that the data I inspected could potentially be outside of compliance guidelines because depending on a company’s policy you could leak confidential information by looking into these log files.  
+
