@@ -10,11 +10,17 @@ Completed tasks in Kibana.
 
 Generated a high amount of failed SSH login attempts and verified that Kibana is picking up this activity.
 
+https://github.com/kam11hub/Cybersecurity/blob/main/Linux/ssh_logins
+
 
 Generated a high amount of CPU usage on the pen-testing machines and verified that Kibana picks up this data.
 
+https://github.com/kam11hub/ELK-project/blob/main/Images/generating_cpu_usage.png
+
 
 Generated a high amount of web requests to your pen-testing servers and made sure that Kibana is picking them up.
+
+https://github.com/kam11hub/Cybersecurity/blob/main/Linux/wget_requests
 
 
 ######################################################################################################################
